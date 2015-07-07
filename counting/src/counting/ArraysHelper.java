@@ -1,0 +1,15 @@
+package counting;
+
+import java.util.Arrays;
+
+public class ArraysHelper {
+
+	public static void main(String[] args) {
+		int[] nums = {3,1,6,7,9,6,4,7,8,4};
+		System.out.println(Arrays.binarySearch(nums, 3));
+		
+		Arrays.sort(nums);
+		System.out.println(Arrays.toString(nums));
+	}
+
+}

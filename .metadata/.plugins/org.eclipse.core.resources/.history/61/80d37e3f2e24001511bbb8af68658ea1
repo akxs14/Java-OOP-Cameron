@@ -1,0 +1,9 @@
+package counting;
+
+public class ArrayDefinition {
+	public static void main(String[] args) {
+		int[] nums = {3,2,5,6,8};
+		System.out.println(nums);
+		System.out.println(nums[1])
+	}
+}
