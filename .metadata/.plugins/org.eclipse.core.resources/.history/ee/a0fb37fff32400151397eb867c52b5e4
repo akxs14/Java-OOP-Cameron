@@ -1,0 +1,9 @@
+package template;
+
+import java.util.StringTokenizer;
+
+public class CSVFileProcessor extends FileProcessor {
+	public CSVFileProcessor(String file) {
+		super(file);
+	}
+}
